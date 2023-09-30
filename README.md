@@ -6,8 +6,6 @@ Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting in
 
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
 
-[https://alicewonderland.github.io/hacktoberfest/](https://alicewonderland.github.io/hacktoberfest/)
-
 ## What is Hacktoberfest?
 A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
 
@@ -35,7 +33,7 @@ Here are 3 quick and painless ways to contribute to this project:
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+git clone https://github.com/Cybernix-Phoenix-NSEC/HF-AnimalShelter.git
 ```
 
 * Create a branch
@@ -63,7 +61,8 @@ Add your name to the `CONTRIBUTORS.md` file using the below convention:
 
 ```markdown
 #### Name: [YOUR NAME](GitHub link)
-- Place: City, State, Country
+- College name: Name of your college
+- Department: Which department you are in?
 - Bio: Who are you?
 - GitHub: [GitHub account name](GitHub link)
 ```
@@ -98,21 +97,3 @@ Your School
 
 [Your Name](GitHub Link)
 ```
-
-### 3. Create a `Hello, World!` Script
-Add a `hello_world_yourusername.xx` script to the `scripts` directory in any language of your choice! Here is an example:
-
-```Javascript
-// LANGUAGE: Javascript
-// ENV: Node.js
-// AUTHOR: Alice Chuang
-// GITHUB: https://github.com/AliceWonderland
-
-console.log('Hello, World!');
-```
-
-Name the file `hello_world_yourusername.xx`. e.g., `hello_world_alicewonderland.js` or `hello_world_alicewonderland.py`.
-
-Don't forget to include the comments as seen above. Feel free to include additional information about the language you choose in your comments too! Like a link to a helpful introduction or tutorial. 
-
-Here is my `hello_world` example: [hello_world_alicewonderland.js](https://github.com/AliceWonderland/hacktoberfest/blob/master/scripts/hello_world_alicewonderland.js)
