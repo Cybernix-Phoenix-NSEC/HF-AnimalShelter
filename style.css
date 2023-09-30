@@ -1,0 +1,481 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#box1{
+    background-image: url("./img/bg1.4.jpg");
+    height: 770px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#title{
+    font-family: Cormorant Garamond;
+    color: #b8e994;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+#subtitle{
+    font-family: Architects Daughter;
+    color: #AF9D5A;
+    padding-top: 5px;
+    padding-left: 200px;
+}
+
+#navbar{
+    margin-top: -50px;
+    margin-left: 757px;
+    padding-top: 12px;
+    font-family: urbanist;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+#navbar ul li a:hover{
+    border-bottom: 4px solid #66AD47;
+    transition-duration: 0.2s;
+}
+
+#container-first{
+    display: flex;
+    flex-direction: column;
+    margin: 500px;
+    position: relative;
+    top: -287px;
+    left: -295px;
+    width: 411px;
+    height: 280px;
+}
+
+ #caption-1{
+    font-family: Raleway;
+    font-size: 48px;
+    color: #E5D68A;
+}
+
+#sub-caption-1{
+    font-family: Comfortaa;
+    padding-top: 24px;
+}
+
+#first-page{
+    font-family: Balsamiq Sans;
+    height: 47px;
+    width: 180px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(226, 160, 62, 0.51);
+    outline: none;
+    border: none;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/bg2.1.jpg");
+    height: 770px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#container-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 512px;
+    height: 446px;
+    position: relative;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#caption-2{
+    font-family: Raleway;
+    font-size: 48px;
+    color: #E5D68A;
+}
+
+#sub-caption-2{
+    font-family: Comfortaa;
+    padding-top: 15px;
+    color: antiquewhite;
+}
+
+#box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./img/bg3.0.jpg");
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#container-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#caption-3{
+    font-family: Raleway;
+    font-size: 48px;
+    color: #2C3A47;
+    position: relative;
+    top: -78px;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    top: -4px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    padding-bottom: 68px;
+}
+
+#card-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    padding-bottom: 68px;
+    margin-left: 45px;
+    margin-right: 45px
+}
+
+img{
+    height: 250px;
+    width: 192px;
+}
+
+img:hover{
+    box-shadow: 5px;
+}
+
+.card-name{
+    position: relative;
+    top: 23px;
+    font-family: Urbanist;
+    text-align: center;
+}
+
+.name-button{
+    font-family: Balsamiq Sans;
+    height: 47px;
+    width: 180px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(226, 160, 62, 0.51);
+    outline: none;
+    border: none;
+    position: relative;
+    top: 42px;
+}
+
+#third-page{
+    position: relative;
+    font-family: Balsamiq Sans;
+    height: 47px;
+    width: 180px;
+    top: 75px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(226, 160, 62, 0.51);
+    outline: none;
+    border: none;
+}
+
+#box4{
+    background-image: url("./img/bg4.1.jpg");
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 770px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#container-fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    position: relative;
+}
+
+#caption-4{
+    font-family: Raleway;
+    font-size: 48px;
+    color: #1e272e;
+    position: relative;
+    top: -94px;
+    left: -68px;
+}
+
+#symbol-tray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 443px;
+    width: 514px;
+    position: relative;
+    top: 206px;
+    right: 659px;
+    flex-wrap: wrap;
+}
+
+#symbol-tray i{
+    font-size: 25px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+.card-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 15px;
+    padding: 35px;
+}
+
+#box5{
+    background-image: url("./img/bg5.2.jpg");
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 770px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#container-fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 187px;
+    left: -1px;
+}
+
+#caption-5{
+    text-align: left;
+    font-family: Raleway;
+    font-size: 48px;
+    color: #E5D68A;
+    position: relative;
+    right: 476px;
+    height: 119px;
+    width: 435px;
+}
+
+
+#sub-caption-3{
+    text-align: left;
+    font-family: Comfortaa;
+    padding-top: 15px;
+    color: antiquewhite;
+    position: relative;
+    right: 516px;
+}
+
+#acc-no{
+    display: flex;
+    font-family: Kaisei Tokumin;
+    color: #1e272e;
+    padding: 20px;
+    background-color: #ff7675;
+    border-radius: 10px;
+    position: relative;
+    right: 552px;
+}
+
+#acc-no i{
+    color: #1e272e;
+    position: relative;
+    top: 4px;
+    padding-right: 15px;
+}
+
+#sub-caption-4{
+    font-family: Comfortaa;
+    padding-top: 15px;
+    color: antiquewhite;
+    font-size: 10px;
+    height: 100px;
+    width: 360px;
+    position: relative;
+    right: 511px;
+}
+
+#box6{
+    background-image: url("./img/bg6.1.jpg");
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 770px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+#container-sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 557px;
+    width: 598px;
+    position: relative;
+    top: 141px;
+    left: 165px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#caption-6{
+    font-family: Raleway;
+    font-size: 40px;
+    color: #E5D68A;
+    position: relative;
+    left: 14px;
+}
+
+#contact-card-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 5px;
+}
+
+#contact-card-1 i{
+    color: #66AD47;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+#contact-card-1 a{
+    text-decoration: none;
+    color: #AF9D5A;
+    font-family: Kaisei Tokumin;
+    font-size: 17px;
+}
+
+#contact-card-1 p{
+    text-decoration: none;
+    color: #AF9D5A;
+    font-family: Kaisei Tokumin;
+    font-size: 17px;
+}
+
+#contact-card-2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 21px;
+}
+
+#contact-card-2 i{
+    color: #66AD47;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+#contact-card-2 p{
+    text-decoration: none;
+    color: #AF9D5A;
+    font-family: Kaisei Tokumin;
+    font-size: 17px;
+}
+
+#contact-card-2 a{
+    text-decoration: none;
+    color: #AF9D5A;
+    font-family: Kaisei Tokumin;
+    font-size: 17px;
+}
+
+/* .jump{
+    background-color: #66AD47;
+    border-radius: 100%;
+    padding: 15px;
+
+} */
+
+.jump a{
+    background-color: #66AD47;
+    border-radius: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 230px;
+    left: 296px;
+    right: 0px;
+    bottom: 0px;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                              MEDIA QUERY                                                                     */
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 400px) and (min-width: 200px){
+    #box1{
+        background-image: url("./pic/mbg1.0.jpg");
+        height: 632px;
+        width: 355px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+}
