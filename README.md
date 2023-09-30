@@ -25,7 +25,8 @@ Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `CONTRIBUTORS.md` file
 * Add a profile page to the `profiles` directory
-* Fix any one or more than one aforementioned issues
+* Comment on which issue you are working on and we will assign you the issue.
+* Fix the issue/issues you have chosen.
 
 
 ## Getting started
