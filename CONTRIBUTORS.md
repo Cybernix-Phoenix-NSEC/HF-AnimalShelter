@@ -1,5 +1,5 @@
-#### Name: [Adarsh Gupta](https://github.com/adarshgupta404)
-- College name: Name of your college
-- Department: Which department you are in?
-- Bio: Who are you?
-- GitHub: [GitHub account name](GitHub link)
+#### Name: [SUGATA CHANDA](https://github.com/SUGATACHANDA)
+- College name: Netaji Subhash Engineering College
+- Department: Computer Science and Engineering
+- Bio: I am a Engineering Student and I am participating for the second time in HacktoberFest
+- GitHub: [SUGATA CHANDA](https://github.com/SUGATACHANDA)
