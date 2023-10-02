@@ -4,7 +4,6 @@
 - Bio: 
 - GitHub: [adarshgupta404](https://github.com/adarshgupta404)
 
-
 #### Name: [Akella Kartik](https://github.com/akellakartik1234)
 - College name: Netaji Subhash Engineering College
 - Department: CSE
