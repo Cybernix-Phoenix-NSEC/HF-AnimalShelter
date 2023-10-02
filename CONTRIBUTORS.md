@@ -1,5 +1,5 @@
-#### Name: [Adarsh Gupta](https://github.com/adarshgupta404)
+#### Name: [Sugata](https://github.com/SUGATACHANDA)
 - College name: Netaji Subhash Engineering College
 - Department: CSE
 - Bio: 
-- GitHub: [adarshgupta404](https://github.com/adarshgupta404)
+- GitHub: [SUGATACHANDA](https://github.com/SUGATACHANDA)
