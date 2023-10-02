@@ -1,25 +1,25 @@
 # Your Name
-
+SUGATA CHANDA
 ### Location
 
-Your City/Country
+KOLKATA, INDIA
 
 ### Academics
 
-Your School
+B.D MEMORIAL INTERNATIONAL
 
 ### Interests
 
-- Some Things You Like
+- FOOTBALL AND WEB DEV
 
 ### Development
 
-- Inventor of the My Pillow
+- PYTHON, WEB, REACT(LEARNING)
 
 ### Projects
 
-- [My Project](GitHub Link) Short Description
+- [ECOMMERCE USING HTML CSS AND JAVASCRIPT](https://sugatachanda.github.io/Ecommerce/)
 
 ### Profile Link
 
-[Your Name](GitHub Link)
+[SUGATA CHANDA](https://github.com/SUGATACHANDA)
