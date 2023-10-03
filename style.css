@@ -1,6 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
 }
 
 html{
@@ -15,25 +20,28 @@ html{
     background-size: cover;
 }
 
+#navbar{
+    padding: 50px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: urbanist;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 #title{
     font-family: Cormorant Garamond;
     color: #b8e994;
     font-size: 30px;
-    padding-top: 40px;
-    padding-left: 200px;
 }
+
 #subtitle{
     font-family: Architects Daughter;
     color: #AF9D5A;
     padding-top: 5px;
-    padding-left: 200px;
-}
-
-#navbar{
-    margin-top: -50px;
-    margin-left: 757px;
-    padding-top: 12px;
-    font-family: urbanist;
 }
 
 #navbar ul{
@@ -60,10 +68,9 @@ html{
 #container-first{
     display: flex;
     flex-direction: column;
-    margin: 500px;
     position: relative;
-    top: -287px;
-    left: -295px;
+    top: 295px;
+    left: 205px;
     width: 411px;
     height: 280px;
 }
