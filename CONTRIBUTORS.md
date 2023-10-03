@@ -9,3 +9,9 @@
 - Department: CSE
 - Bio: 
 - GitHub: [akellakartik1234](https://github.com/akellakartik1234)
+
+ #### Name: [Shruti Sen](https://github.com/shruti-sen2004)
+- College name: Netaji Subhash Engineering College
+- Department: CSE
+- Bio: 
+- GitHub: [shruti-sen2004](https://github.com/shruti-sen2004)
