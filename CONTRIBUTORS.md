@@ -9,3 +9,9 @@
 - Department: CSE
 - Bio: 
 - GitHub: [akellakartik1234](https://github.com/akellakartik1234)
+
+#### Name: [Shubh Jaiswal](https://github.com/shubhjaiswal02)
+- College name: Punjab Engineering College
+- Department: Production and Industrial Engineering
+- Bio: 
+- GitHub: [shubhjaiswal02](https://github.com/shubhjaiswal02)

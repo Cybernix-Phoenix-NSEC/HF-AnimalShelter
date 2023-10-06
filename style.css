@@ -97,7 +97,12 @@ html{
     background-color: rgba(226, 160, 62, 0.51);
     outline: none;
     border: none;
+    
 }
+#first-page:hover {
+    background-color: yellow;
+}
+
 
 #box2{
     display: flex;
@@ -470,6 +475,67 @@ img:hover{
     right: 0px;
     bottom: 0px;
     text-decoration: none;
+}
+
+/* Add CSS for modal styling here */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: burlywood;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 210px;
+    width: 20%;
+    border-radius: 30px;
+}
+.info{
+    font-weight:bolder;
+    font-size: large;
+}
+.field{
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+}
+.filled{
+    font-weight:bolder;
+    color: black;
+    background-color: blanchedalmond;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+
+}
+.filled:hover{
+    background-color: #E5D68A;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
