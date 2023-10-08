@@ -15,3 +15,10 @@
 - Department: Production and Industrial Engineering
 - Bio: 
 - GitHub: [shubhjaiswal02](https://github.com/shubhjaiswal02)
+
+#### Name: [Asutosh Kumar](https://github.com/h4ckibl3)
+
+- College name: Netaji Subhash Engineering College
+- Department: Applied Electronics and Instrumentation Engineering
+- Bio: 
+- GitHub: [h4ckibl3](https://github.com/h4ckibl3)
