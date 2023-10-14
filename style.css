@@ -69,7 +69,7 @@ html{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 295px;
+    top: 25%;
     left: 205px;
     width: 411px;
     height: 280px;
@@ -97,12 +97,11 @@ html{
     background-color: rgba(226, 160, 62, 0.51);
     outline: none;
     border: none;
-    
 }
+
 #first-page:hover {
     background-color: yellow;
 }
-
 
 #box2{
     display: flex;
@@ -477,67 +476,121 @@ img:hover{
     text-decoration: none;
 }
 
-/* Add CSS for modal styling here */
-
-.modal {
-    display: none;
+.modals {
+    display: none; 
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 100%; 
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    padding-top: 60px;
-}
-
-.modal-content {
-    background-color: burlywood;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    height: 210px;
-    width: 20%;
-    border-radius: 30px;
-}
-.info{
-    font-weight:bolder;
-    font-size: large;
-}
-.field{
-  width: 300px;
-  height: 20px;
-  border-radius: 5px;
-}
-.filled{
-    font-weight:bolder;
-    color: black;
-    background-color: blanchedalmond;
-    width: 80px;
-    height: 25px;
-    border-radius: 20px;
-
-}
-.filled:hover{
-    background-color: #E5D68A;
-}
-
-.close {
+    margin-top: 10%;
+    margin-left: 50%;
+    align-items: center;
+  }
+  
+  /* The Close Button */
+  .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
+  }
+  
+  .close:hover,
+  .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
+  }
 
+  .modal-header {
+    /* border: black solid 2px; */
+    padding: 6px 16px;
+    background-color: rgba(rgb(255, 221, 0), 0, 0, 0.2);
+    text-align: center;
+    font-family: urbanist;
+    color: #b8e994;
+    border-radius: 20px;
+    
+  }
+
+  .modal-header h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 20);
+  }
+  
+  /* Modal Body */
+  .modal-body {
+    background-color: rgba(218, 193, 28,0.8);
+    padding: 15px 16px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Balsamiq Sans;
+    border-radius: 20px;
+    
+}
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: rgba(rgba(240, 186, 9, 0.89), 0, 0, 0.9);
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 20px;
+  }
+  
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Balsamiq Sans;
+  }
+  .submit-btn:hover {
+    background-color: black;
+    background-image: url('img/download.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 20px;
+      transition: background-image 0.3s ease-in-out;
+      color: transparent;
+      
+  }
+
+  #button_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*                                                              MEDIA QUERY                                                                     */
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/

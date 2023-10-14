@@ -15,3 +15,9 @@
 - Department: Production and Industrial Engineering
 - Bio: 
 - GitHub: [shubhjaiswal02](https://github.com/shubhjaiswal02)
+
+#### Name: [Raunak Saha Fouzder](https://github.com/SahaFouzder-Raunak)
+- College name: Netaji Subhash Engineering College
+- Department: CSE
+- Bio: Final Year B.tech CSE student
+- GitHub: [SahaFouzder-Raunak](https://github.com/SahaFouzder-Raunak)
